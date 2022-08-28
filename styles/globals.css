@@ -21,6 +21,13 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #222;
   }
 }
+
+.container {
+  padding: 0 4rem;
+  text-align: center;
+}
+
+/* Scrollbar Customization */

@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 2em;
+}
+
+.nav_list li {
+  font-weight: bolder;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  color: red;
+}
