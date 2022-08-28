@@ -33,7 +33,12 @@ const Home: NextPage = (props: Props) => {
 
       <div className={styles.main_home_container}>
         <div className={styles.home_img}>
-          <Image src="/thumbnail.jpg" alt="Home Image"></Image>
+          <Image
+            src="/thumbnail.jpg"
+            alt="Home Image"
+            width={400}
+            height={280}
+          ></Image>
         </div>
 
         <main className={styles.main}>

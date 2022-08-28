@@ -18,7 +18,6 @@ interface Props {
 }
 
 const Slug = (props: Props) => {
-  console.log(props);
   function createMarkup(c: string) {
     return { __html: c };
   }
@@ -57,7 +56,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     }
     return {
       paths: files,
-      fallback: true,
+      fallback: false,
     };
   } catch (error) {
     console.log(error);
